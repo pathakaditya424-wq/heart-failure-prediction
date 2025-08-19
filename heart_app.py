@@ -5,7 +5,7 @@ import joblib
 import tensorflow as tf
 
 # Load saved model and preprocessors
-model = tf.keras.models.load_model("heart_model.h5")
+model = tf.keras.models.load_model("heart_model.keras")
 scaler = joblib.load("scaler.pkl")
 encoder = joblib.load("encoder.pkl")
 
