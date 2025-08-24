@@ -10,6 +10,9 @@ scaler = joblib.load("scaler.pkl")
 encoder = joblib.load("encoder.pkl")
 
 st.title("❤️ Heart Failure Prediction App")
+
+st.info("For best experience, type values directly instead of using the +/- buttons. If an error occurs, refresh and re-enter.")
+
 st.write("Enter patient details to predict the risk of heart disease.")
 
 # --- User inputs ---
