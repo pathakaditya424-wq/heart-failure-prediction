@@ -34,6 +34,11 @@ A **Machine Learning web app** built with **Streamlit** that predicts the risk o
    - Confusion Matrix visualization
 
 ---
+### Usage Note
+For best experience, please **type values directly** in the input fields instead of using the +/- buttons.  
+The stepper controls can sometimes trigger index/attribute errors in the current version.  
+If an error occurs, refresh the page and re-enter the inputs.
+
 
 ## 📦 Installation & Usage
 
